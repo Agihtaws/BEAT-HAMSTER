@@ -3,7 +3,7 @@ const { ethers } = require('ethers');
 require('dotenv').config();
 
 // Configuration
-const CONTRACT_ADDRESS = '0x46c3994EFD37926b25FBE01e6B0566015eF8FE4e';
+const CONTRACT_ADDRESS = '0xf1d498e69Be4ee79f767aeCCc7680A33e5B020C8';
 const MIN_BALANCE = ethers.parseEther('0.05'); // 0.05 tokens
 const FUNDING_AMOUNT = ethers.parseEther('0.1'); // 0.1 tokens
 const CHECK_INTERVAL = 60000; // 60 seconds
