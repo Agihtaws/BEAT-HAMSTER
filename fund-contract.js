@@ -15,7 +15,7 @@ async function main() {
   const amountInWei = ethers.parseEther(amount);
   
   // Contract address
-  const CONTRACT_ADDRESS = '0x46c3994EFD37926b25FBE01e6B0566015eF8FE4e';
+  const CONTRACT_ADDRESS = '0xf1d498e69Be4ee79f767aeCCc7680A33e5B020C8';
   
   // Connect to the network
   const provider = new ethers.JsonRpcProvider(process.env.SOMNIA_TESTNET_URL);
