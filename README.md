@@ -1,7 +1,7 @@
 
 # 🐹 BEAT HAMSTER
 
-![Beat Hamster Game](https://beat-hamster.vercel.app/preview.png)
+![Beat Hamster Game](https://github.com/Agihtaws/BEAT-HAMSTER/blob/main/beat-hamster-frontend/public/background.jpg)
 
 A fun, blockchain-integrated whack-a-mole style game where players earn bonus points by hitting hamsters and can redeem these points for **Somnia Testnet tokens**.
 
