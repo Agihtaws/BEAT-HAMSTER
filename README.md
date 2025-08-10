@@ -7,9 +7,9 @@ A fun, blockchain-integrated whack-a-mole style game where players earn bonus po
 
 ## 🎮 [Live Demo](https://beat-hamster.vercel.app/)
 
-## 🎥 Demo Video
+##  ​ Demo Video
 
-[![Watch the video](https://img.youtube.com/vi/xhVU1DT6rJQ/0.jpg)](https://www.youtube.com/watch?v=xhVU1DT6rJQ)
+[![Watch the video](https://img.youtube.com/vi/X4YcPdxPXNE/0.jpg)](https://youtu.be/X4YcPdxPXNE)
 
 ---
 
