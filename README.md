@@ -1,5 +1,4 @@
 
-
 # 🐹 BEAT HAMSTER
 
 ![Beat Hamster Game](https://beat-hamster.vercel.app/preview.png)
@@ -61,10 +60,10 @@ beat-hamster/
 ├── contracts/
 │   └── BeatHamster.sol       # Main smart contract
 ├── scripts/
-│   ├── deploy.js             # Deployment script
-│   ├── check-balance.js      # Check contract balance
-│   ├── fund-contract.js      # Fund contract with tokens
-│   └── monitor-contract.js   # Monitor and auto-fund contract
+│   └── deploy.js             # Deployment script
+├── check-balance.js          # Check contract balance
+├── fund-contract.js          # Fund contract with tokens
+├── monitor-contract.js       # Monitor and auto-fund contract
 ├── beat-hamster-frontend/
 │   ├── public/
 │   └── src/
@@ -107,14 +106,14 @@ cd BEAT-HAMSTER
 npm install
 ````
 
-Create a `.env` file in the root directory:
+**Create a `.env` file** in the root directory:
 
 ```
 PRIVATE_KEY=your_wallet_private_key
 SOMNIA_TESTNET_URL=https://rpc.ankr.com/somnia_testnet
 ```
 
-Compile & deploy:
+**Compile & deploy:**
 
 ```bash
 npx hardhat clean
@@ -126,6 +125,32 @@ npx hardhat run scripts/deploy.js --network somnia_testnet
 
 ---
 
+### 📜 Contract Management Scripts
+
+**Check contract balance:**
+
+```bash
+node check-balance.js
+```
+
+**Fund contract with tokens:**
+
+```bash
+node fund-contract.js <amount>
+# Example:
+node fund-contract.js 0.1
+```
+
+**Automatic contract funding monitoring:**
+
+```bash
+node monitor-contract.js
+```
+
+The monitor script will automatically fund the contract when the balance falls below the minimum threshold.
+
+---
+
 ### 2️⃣ Frontend Setup
 
 ```bash
@@ -133,19 +158,19 @@ cd beat-hamster-frontend
 npm install
 ```
 
-Update contract address in:
+**Update contract address** in:
 
 ```
 src/contracts/BeatHamsterABI.js
 ```
 
-Run locally:
+**Run locally:**
 
 ```bash
 npm start
 ```
 
-Build for production:
+**Build for production:**
 
 ```bash
 npm run build
@@ -164,8 +189,8 @@ npm run build
 
 1. Connect your MetaMask wallet to Somnia Testnet
 2. Click on hamsters to earn points
-3. 60-second game duration
-4. Score auto-recorded on blockchain
+3. Game duration is 60 seconds
+4. Score is automatically recorded on the blockchain
 5. Earn bonus points → Redeem for Somnia testnet tokens
 
 **Try now:** [Live Demo](https://beat-hamster.vercel.app/) 🎯
@@ -217,4 +242,5 @@ Apache License — see [LICENSE](LICENSE) file.
 * [ethers.js](https://docs.ethers.io/) — Blockchain interaction
 * [Somnia Testnet](https://somnia.network) — Testnet hosting
 * [React.js](https://reactjs.org/) — Frontend framework
+
 
